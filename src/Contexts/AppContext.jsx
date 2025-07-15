@@ -1,4 +1,6 @@
-
+// AppContext.jsx is used for managing global application state for the application
+// such as dark mode language preferences and sidebar state.
+// This context can be used throughout the application to access and modify these states.
 import React, { createContext, useState, useEffect } from 'react';
 
 export const AppContext = createContext();
