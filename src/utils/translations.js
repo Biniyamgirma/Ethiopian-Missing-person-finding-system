@@ -90,6 +90,11 @@ export const translations = {
     generateReport: "Generate Report",
   },
   am: {
+    "updateOfficerInformationPrompt":"",
+    editOfficerDetails,updateOfficerInformationPrompt,firstName,firstNamePlaceholder,middleName,middleNamePlaceholder
+    lastName,lastNamePlaceholder,phoneNumber,phoneNumberPlaceholder,gender,male,female,birthDate,birthDatePlaceholder
+    systemRoleLabel,roleTownOfficer,roleZoneOfficer,roleRegionOfficer,roleRootAdmin,status,active,blocked,policeStation
+    policeStationPlaceholder,officerImage,cancel,saveChanges
   "criminalDatabaseTitle": "የወንጀለኞች የመረጃ ቋት",
   "criminalDatabaseSubtitle": "የተመዘገቡ ወንጀለኞችን ይፈልጉ እና ያጣሩ።",
   "filterCriminalsTitle": "ወንጀለኞችን አጣራ",
