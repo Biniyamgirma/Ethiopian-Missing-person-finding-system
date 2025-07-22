@@ -1,0 +1,9 @@
+editOfficerDetails,updateOfficerInformationPrompt,firstName,firstNamePlaceholder,middleName,middleNamePlaceholder
+    lastName,lastNamePlaceholder,phoneNumber,phoneNumberPlaceholder,gender,male,female,birthDate,birthDatePlaceholder
+    systemRoleLabel,roleTownOfficer,roleZoneOfficer,roleRegionOfficer,roleRootAdmin,status,active,blocked,policeStation
+    policeStationPlaceholder,officerImage,cancel,saveChanges,ViewingInformationFor,officerDetails,id
+    fullName,rank,policeStation,status,joinDate,phoneNumber,CreateNewPost,CreateNewPostDescription,postDescription,
+    postDescriptionPlaceholder,personDetailsSectionTitle,lastLocation,lastLocationPlaceholder,administrativeDetailsSectionTitle
+    policeOfficerId,policeOfficerId,selectStatusPlaceholder,postStatus,UploadImageOfThePerson,imagePreviewAlt,submitPostButton
+    amharaPoliceCriminalDatabase,Addandmanagecriminalsefficientlywithouruser-friendlyinterface,addNewCriminal,
+    AddNewCriminal,CriminalPhoto,fileNumber,policeStationID,criminalAddedSuccessfully,tryAgain,fileNumberLabel

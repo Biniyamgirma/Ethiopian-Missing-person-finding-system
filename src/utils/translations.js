@@ -91,10 +91,15 @@ export const translations = {
   },
   am: {
     "updateOfficerInformationPrompt":"",
-    editOfficerDetails,updateOfficerInformationPrompt,firstName,firstNamePlaceholder,middleName,middleNamePlaceholder
-    lastName,lastNamePlaceholder,phoneNumber,phoneNumberPlaceholder,gender,male,female,birthDate,birthDatePlaceholder
-    systemRoleLabel,roleTownOfficer,roleZoneOfficer,roleRegionOfficer,roleRootAdmin,status,active,blocked,policeStation
-    policeStationPlaceholder,officerImage,cancel,saveChanges
+    
+    "allPostsTitle": "ሁሉም ፖስቶች",
+    "searchPostsPlaceholder": "ፖስቶችን ይፈልጉ...",
+    "postId": "ፖስት መለያ",
+    "descriptionSummary": "መግለጫ እና አጭር መግለጫ",
+    "personName": "የሰው ስም",
+    "status": "ሁኔታ",
+    "postedDate": "የተለጠፈበት ቀን",
+    "actions": "እርምጃዎች",
   "criminalDatabaseTitle": "የወንጀለኞች የመረጃ ቋት",
   "criminalDatabaseSubtitle": "የተመዘገቡ ወንጀለኞችን ይፈልጉ እና ያጣሩ።",
   "filterCriminalsTitle": "ወንጀለኞችን አጣራ",

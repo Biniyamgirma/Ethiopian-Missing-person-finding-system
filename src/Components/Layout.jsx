@@ -12,7 +12,7 @@ export function Layout() {
     <div className={`flex h-screen w-full overflow-hidden ${darkMode ? 'dark' : ''}`}>
       <Sidebar collapsed={sidebarCollapsed} />
       <div className="flex flex-col flex-1 overflow-hidden bg-gray-50 dark:bg-gray-900">
-        <Header username="Biniyam Girma" />
+        <Header username="User" />
         <div className="flex-1 overflow-y-auto p-6 dark:text-gray-100">
           <Outlet />
         </div>

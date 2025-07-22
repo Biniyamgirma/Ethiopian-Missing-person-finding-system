@@ -4,7 +4,7 @@ import {
   Home,
   FileText,
   Users,
-  Car, // Assuming this was for "Manage Post" or similar
+  LayoutDashboard, // Assuming this was for "Manage Post" or similar
   ShieldAlert,
   MessageCircle,
   Settings,
@@ -17,21 +17,17 @@ const navItems = [
   { href: "/", label: "Dashboard", icon: Home },
   { href: "/reports", label: "Reports", icon: FileText },
   { href: "/police-officers", label: "Police Officers", icon: Users },
-  { href: "/police-cars", label: "Manage Post", icon: Car }, // Or "Police Vehicles"
+  { href: "/manage-post", label: "Manage Post", icon: LayoutDashboard }, 
   { href: "/criminals", label: "Criminals", icon: ShieldAlert },
-  { href: "/policeStation", label: "Manage Police Station", icon: Building }, // New Item
+  { href: "/policeStation", label: "Manage Police Station", icon: Building }, 
   { href: "/messaging", label: "Messaging", icon: MessageCircle },
   { href: "/settings", label: "Settings", icon: Settings },
 ];
 
 export function Sidebar({ collapsed: propCollapsed }) {
   const location = useLocation();
-  const { currentUser } = useAuth(); // Get currentUser from AuthContext
-  // Use context if sidebarCollapsed is managed globally and not passed as prop
-  // const { sidebarCollapsed } = useAppContext();
-  // const collapsed = propCollapsed !== undefined ? propCollapsed : sidebarCollapsed;
+  const { currentUser } = useAuth(); 
   const collapsed = propCollapsed; // Assuming collapsed is passed as a prop from Layout
-
   return (
     <aside
       className={cn(
@@ -76,7 +72,7 @@ export function Sidebar({ collapsed: propCollapsed }) {
             }
             // Rules for links to be hidden if role is 2 or 3
             else if (label === "Manage Post" || label === "Reports") {
-              if (role === 2 || role === 3) {
+              if (role >= 2) {
                 showItem = false;
               }
             }
