@@ -314,7 +314,7 @@ export default function Home() {
   };
 
   return (
-    <div className="space-y-6 p-6 dark:bg-gray-900 dark:text-white min-h-screen">
+    <div className="space-y-6 p-6 dark:bg-gray-900 dark:text-white min-h-screen" >
       <div className="bg-blue-50 p-4 rounded-lg dark:bg-gray-800">
         <h2 className="text-lg font-medium">
           {currentUser && currentUser.firstName && currentUser.middleName

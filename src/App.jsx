@@ -1,7 +1,6 @@
 // EMPLS/src/App.jsx
 //importing necessary libraries and components
 import React from "react";
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -62,8 +61,8 @@ const App = () => {
                   <Route path="/criminals" element={<Criminal />} />
                   <Route path="/messaging" element={<MessagingPage />} />
                   <Route path="/police-stations" element={<ManagePoliceStationPage />} />
-                  <Route pate="/settings" element={<Settings />} />
-                  <Route pathe="/test" element={<Test />} />
+                  <Route path="/settings" element={<Settings />} />
+                  <Route path="/search" element={<Test />} />
                   <Route path="*" element={<NotFoundPage />} />
                 </Route>
               </Route>
